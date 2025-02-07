@@ -7,7 +7,7 @@
 int main() {
     // Área para difinição das variáveis para armazenar as propriedades das cidades
 
-    double populacao;
+    int populacao;
     double area_km;
     double pib;
     int ponto_turistico;
@@ -15,7 +15,7 @@ int main() {
     // Área para entrada de dados
 
     printf("Digite a população: ");
-    scanf(" %lf", &populacao);
+    scanf(" %d", &populacao);
     printf("Digite a área em km²: ");
     scanf("%lf", &area_km);
     printf("Digite o PIB: ");
@@ -26,7 +26,7 @@ int main() {
     // Área para exibição dos dados da cidade
 
     printf("\n Dados das cartas \n");
-    printf("População: %lf \n", populacao);
+    printf("População: %d \n", populacao);
     printf("Área em km²: %.2lf \n", area_km);
     printf("PIB: %.2lf \n", pib);
     printf("Número de pontos turísticos: %d \n", ponto_turistico);
