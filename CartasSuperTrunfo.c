@@ -6,7 +6,7 @@
 
 int main() {
     // Área para difinição das variáveis para armazenar as propriedades das cidades
-
+ 
     int populacao;
     double area_km;
     double pib;
